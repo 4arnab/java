@@ -1,0 +1,42 @@
+# ☕ Learning Java
+
+Welcome to my **Java Learning Journey** 🚀 — this repository contains all my notes, code snippets, and mini projects as I learn and practice **Core Java**, **OOP**, and eventually **Spring Boot** for backend development.
+
+---
+
+## 🧩 Topics Covered So Far
+
+- ✅ Java Basics (Syntax, Variables, Data Types)
+- ✅ Control Flow (if, else, switch, loops)
+- ✅ Functions / Methods
+- ✅ Object-Oriented Programming (Classes, Objects, Inheritance, Polymorphism)
+- ✅ Arrays & Strings
+- ✅ Exception Handling
+- ✅ File I/O
+- ✅ User Input using `Scanner`
+- ✅ CLI Projects (Calculator, QR Code Generator)
+
+---
+
+## 📘 Upcoming Topics
+
+- 🔜 Collections Framework (`List`, `Map`, `Set`)
+- 🔜 Generics
+- 🔜 Java 8 Features (Streams, Lambdas)
+- 🔜 Multithreading
+- 🔜 JDBC (Database Connections)
+- 🔜 Spring Boot & REST APIs
+- 🔜 Microservices & Docker (Advanced)
+
+---
+
+## 💻 Mini Projects
+
+| Project Name         | Description                                         |
+| -------------------- | --------------------------------------------------- |
+| 🧮 CLI Calculator    | Simple command-line calculator for basic operations |
+| 📦 QR Code Generator | Generate QR codes using ZXing library               |
+| 📂 File Reader       | Read text files and print contents                  |
+| 🧠 Email Validator   | Validate user email input using regex               |
+
+---
