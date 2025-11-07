@@ -1,12 +1,14 @@
 import java.util.Scanner;
+import java.util.Random;;
 
 public class Shopping {
     public static void main(String[] args) {
         System.out.println("Welcome to SHOPPING CART program");
         Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
 
         String item;
-        double price = 10.0;
+        double price = random.nextInt(1, 30);
         int quantity;
         char currency = '$';
 
