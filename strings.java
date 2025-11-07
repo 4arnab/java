@@ -4,7 +4,9 @@ public class strings {
 
     public final static Random random = new Random();
 
-    public static String generateUserName(String email) {
+    public static String generateUserName(String email, boolean loggingStatus) {
+
+        System.out.println(loggingStatus ? "User logged in " : "login");
         String aToZ = "abcdefghijklmnopqrstuvwxyz";
         int index = random.nextInt(aToZ.length()); // getting index between 0 to the length of the aToZ
 
@@ -28,7 +30,7 @@ public class strings {
         String firstPartOfEmail = email.substring(0, email.indexOf("@"));
         System.out.println(firstPartOfEmail);
 
-        String userName = generateUserName(email);
+        String userName = generateUserName(email, true);
         System.out.println(userName);
     }
 }
