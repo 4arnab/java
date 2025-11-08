@@ -12,6 +12,18 @@ public class Methods {
         return one + two + three;
     }
 
+    // VARARGS function
+    static int addAll(int... numbers) {
+        int sum = 0;
+
+        // LOOP THROUGH AND EACH CYCLE ADD TO THE SUM
+        for (int number : numbers) {
+            sum += number;
+        }
+
+        return sum;
+    }
+
     static void getBalance(double balance) {
         System.out.printf("your account balance is : $%.2f\n", balance);
     }
